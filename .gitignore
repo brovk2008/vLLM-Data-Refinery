@@ -1,0 +1,41 @@
+# ── Data files (never commit large datasets) ──────────────────
+*.txt
+*.csv
+*.json
+
+# ── SQLite state databases ─────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────
+venv/
+.venv/
+env/
+.env/
+
+# ── OS junk ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs and temp ─────────────────────────────────────────────
+*.log
+last_response.txt
+failed_chunks.json
+progress.json
