@@ -1,0 +1,9 @@
+# vLLM-Data-Refinery dependencies
+# Install vLLM separately following https://docs.vllm.ai/en/latest/getting_started/installation.html
+
+pandas>=2.0.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# vLLM (GPU required)
+# pip install vllm
